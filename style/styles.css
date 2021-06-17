@@ -10,8 +10,10 @@ header {
 }
 
 hr {
-	visibility: hidden;
 	margin: 2em 0;
+	height: .5px;
+	border: none;
+	background-color: black;
 }
 
 h1 {
@@ -58,7 +60,7 @@ h1 {
 
 .card {
 	border: solid 2.75px rgba(0,0,0,.15);
-	width: 20em;
+	width: 18em;
 	height: 8em;
 	display: flex;
 	flex-direction: row;
