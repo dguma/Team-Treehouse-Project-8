@@ -1,0 +1,110 @@
+body {
+	position: relative;
+	background-color: rgba(241,241,241,.25);
+	font-family: 'Nunito', sans-serif;
+}
+
+header {
+	text-align: center;
+	padding: 2em 0;
+}
+
+hr {
+	visibility: hidden;
+	margin: 2em 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(100,100,100,.4);
+}
+
+.modal {
+	width: 375px;
+	margin: 15% auto auto;
+	position: relative;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #778;
+	border-radius: 5px;
+	padding: 30px 20px;
+}
+
+.modal-close {
+	position: absolute;
+	right: 15px;
+	top: 5px;
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+.grid-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.card {
+	border: solid 2.75px rgba(0,0,0,.15);
+	width: 20em;
+	height: 8em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+	align-content: center;
+	margin: 1em;
+	border-radius: .5em;
+	padding: 1em;
+	overflow-x: hidden;
+	background-color: white;
+}
+
+.card h2 {
+	font-size: 1.25em;
+}
+
+.card p {
+	font-size: 1em;
+}
+
+.text-container {
+	line-height: 10px;
+	margin-top: 1em;
+}
+
+.text-container p {
+	font-size: .85em;
+}
+
+.avatar {
+	border-radius: 50%;
+	height: 6em;
+	width: 6em;
+	padding: 1em;
+}
+
+.modal-bottom-group p {
+	padding: .5em 0;
+}
+
+.modal-container {
+	border: none;
+	width: 21em;
+}
+
+.modal-container .avatar, .text-container {
+	padding: 0;
+}
